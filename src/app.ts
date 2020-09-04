@@ -46,9 +46,6 @@ export const roverTurnRight = (command: string) => {
 
 //SWITCH REFACTOR
 
-    for (let c of convertToUppercase) {
-        console.log(c[0])
-
     let move = {
         x: 0,
         y: 0,
@@ -79,7 +76,6 @@ export const roverTurnRight = (command: string) => {
             default:
                 throw new Error('invalid input')
         }
-    }
 }
 
 //Object Literal refactor
